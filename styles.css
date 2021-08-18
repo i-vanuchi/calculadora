@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.general-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+    to left top,
+    rgb(119, 144, 255),
+    rgb(185, 110, 255)
+  );
+
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+}
+
+.header {
+  padding: 50px 0;
+}
+.primary-title,
+.secondary-title {
+  line-height: 1;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.primary-title {
+  font-size: 54px;
+  font-weight: 700;
+}
+.secondary-title {
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.calc {
+  width: 360px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: rgb(41, 41, 41);
+  border-radius: 5px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+.calc__display {
+  height: 50px;
+  border: 2px solid #555;
+  border-radius: 3px;
+  background-color: rgb(111, 177, 120);
+}
+.calc__btns-container {
+  margin-top: 20px;
+  width: 100%;
+  justify-content: space-between;
+}
+.calc__btns-group-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.calc__wrapper-bottom {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.calc__btns-group-2 {
+  width: 74%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.btn {
+  width: 22%;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 3px;
+  border: none;
+}
+.btn--operation {
+  background-color: rgb(109, 156, 243);
+}
+.btn--operation:hover {
+  background-color: rgb(119, 158, 230);
+  cursor: pointer;
+}
+.btn--operation:active {
+  background-color: rgb(76, 128, 226);
+}
+.btn--left {
+  width: 29.5%;
+  background-color: rgb(86, 191, 233);
+}
+.btn--left:hover {
+  background-color: rgb(109, 194, 224);
+  cursor: pointer;
+}
+.btn--left:active {
+  background-color: rgb(70, 170, 209);
+}
+#btn-equals {
+  height: 230px;
+  background-color: rgb(84, 70, 167);
+}
+#btn-equals:hover {
+  background-color: rgb(101, 82, 206);
+  cursor: pointer;
+}
+#btn-equals:active {
+  background-color: rgb(75, 59, 170);
+}
+
+/* 
+https://codepen.io/lalwanivikas/details/eZxjqo
+*/
